@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;300;400;600;700;800;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::selection {
+  background-color: #eeeeee;
+  color: #6f38c5;
+}
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6f38c5;
+}
+
+::-webkit-scrollbar-track {
+  background-color: #eeeeee;
+}
+
+body {
+  background-color: #6f38c5;
+  color: #eeeeee;
+  font-family: "Nunito Sans", sans-serif;
+}
+
+.btn-question {
+  background: #eeeeee;
+  transition: all 0.5s ease;
+}
+
+.btn-question:hover {
+  background-color: #6f38c5;
+  color: #eeeeee;
+}
+
+.pregunta {
+  color: #000;
+  text-align: center;
+  font-size: 1.3rem;
+  padding: 1.5rem;
+}
+
+.categoria {
+  padding: 10px;
+  color: #6f38c5;
+}
+
+.puntaje {
+  padding: 2rem;
+  text-align: center;
+  color: white;
+}
+
+.footer-copy {
+  text-align: center;
+  margin-top: 7rem;
+}
+
+.contenedor {
+  width: 30rem;
+}
+
+@media (max-width: 560px) {
+  .footer-copy {
+    font-size: 1rem;
+    margin-top: 3rem;
+  }
+
+  .contenedor {
+    width: 20rem;
+    overflow: hidden;
+    box-sizing: border-box;
+  }
+
+  .pregunta {
+    font-size: 1rem;
+  }
+}
